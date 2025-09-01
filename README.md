@@ -1,4 +1,4 @@
-# Proyecto TID Precicion dispositos GNSS
+# Proyecto TID Precision dispositos GNSS
 
 ## 0. Advertencias de Uso
 
