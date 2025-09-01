@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- Project data / generated files (added per user request)
+# Ignorar carpetas con datos procesados y archivos de GPS/KML/GPX/GeoJSON
+/Clean_Files/
+/GPX/
+/Plot_results/
+
+# Ignorar el KML de planificación en la raíz (nombre con espacios)
+/Planificacion TID GPS.kml
+
+# Ignorar formatos de datos grandes por si aparecen fuera de las carpetas anteriores
+*.gpkg
+*.geojson
+*.gpx
+*.kml
